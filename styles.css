@@ -112,7 +112,7 @@ header .profile-image {
 }
 
 .resumee .profile-image {
-  border-color: #5a5d57;
+  border-color: #efefef;
 }
 
 .about .profile-image {
@@ -123,6 +123,11 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(10deg);
   border-radius: 15%;
 }
+
+.resumee .profile-image:hover {
+  border-color: #5a5d57;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
