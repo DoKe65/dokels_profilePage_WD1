@@ -34,6 +34,7 @@ button {
   background-color: #e8efff;
   border: none;
   box-shadow: 5px 5px #87c7f8;
+  margin-bottom: 1em;
 }
 
 button a {
@@ -197,7 +198,7 @@ ul.hobbies {
 
 .btns {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 footer {
@@ -259,6 +260,10 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  button {
+    margin-bottom: 0;
+  }
+
   header {
     min-height: 470px;
   }
@@ -269,6 +274,7 @@ a.social:hover {
   }
 
   .btns {
+    flex-direction: row;
     justify-content: space-between;
   }
 
