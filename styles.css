@@ -27,30 +27,6 @@ img {
   max-width: 100%;
 }
 
-button {
-  height: 2em;
-  min-width: 12em;
-  border-radius: 5px;
-  background-color: #e8efff;
-  border: none;
-  box-shadow: 5px 5px #87c7f8;
-  margin-bottom: 1em;
-}
-
-button a {
- color: #222;
-}
-
-button a:hover {
-  color: #404e26;
-  font-weight: 600;
-}
-
-button:hover {
-  background-color: #e5f5ca;
-  box-shadow: 5px 5px #a2cd57;
-}
-
 /* Section Styles */
 
 .main-nav {
@@ -199,6 +175,34 @@ ul.hobbies {
 .btns {
   display: flex;
   flex-direction: column;
+}
+
+
+.btn {
+  padding-top: 0.5em;
+  text-align: center;
+  height: 2.2em;
+  min-width: 12em;
+  border-radius: 5px;
+  background-color: #e8efff;
+  border: none;
+  box-shadow: 5px 5px #87c7f8;
+  margin-bottom: 1em;
+}
+
+.btn:hover {
+  background-color: #e5f5ca;
+  box-shadow: 5px 5px #a2cd57;
+}
+
+.btn a {
+  color: #222;
+  padding: 2em 1em;
+}
+
+.btn a:hover {
+  color: #404e26;
+  font-weight: 600;
 }
 
 footer {
